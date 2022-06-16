@@ -1,0 +1,46 @@
+.c1{
+    height: auto;
+    width: 700px;
+    /* border: solid;
+    border-width: 1; */
+    background-color: #fff;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-left:500px;
+    border-radius: 20px;
+    padding-top: 20px;
+  }
+  .c1 h2{
+      align-content: center;
+      padding-left: 20px;
+  }
+  .c2{
+    height: auto;
+    width: 700px;
+    /* border: solid;
+    border-width: 1;  */
+    background-color: #fff;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-left:500px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+  }
+  .c2 h2{
+    align-content: center;
+    padding-left: 20px;
+   
+}
+.try{
+    background-color: aqua;
+    height: 400px;
+    width:auto;
+}
+.body{
+    background-image: url('back1.webp'); 
+}

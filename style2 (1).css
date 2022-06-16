@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"poppins",sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 500px;
+    width: 1520;
+    padding: 0 8%;
+    background-color: black;
+    position:relative;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 100px;
+}
+.nav-links{
+    padding: 28px 0;
+
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 0;
+    position: relative;
+}
+.nav-links li a::after{
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width  0.5s;
+
+
+}
+.nav-links li a:hover::after{
+    width: 100%;
+
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top:  50%;
+    width:90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-image: url("back1.webp");
+    background-position: center;
+
+}
+.content h1{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content form{
+    background: #fff;
+    padding:10px;
+    border-radius: 8px ;
+    display: flex;
+}
+.content form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.content form button{
+    background: linear-gradient(45deg,#5f0c8b,#31aee3);
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px ;
+    cursor: pointer;
+
+}
+.c1{
+    background-image: url("back2.jpg");
+    background-position: center;
+
+}
+td{
+    padding:10px;
+    
+}
